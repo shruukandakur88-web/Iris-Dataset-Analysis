@@ -1,0 +1,153 @@
+# 🌸 Iris Dataset Analysis – Power BI Dashboard
+
+An interactive **Power BI dashboard** built using the classic **Iris Dataset** to analyze and visualize relationships between sepal and petal dimensions across different iris species.
+
+This project demonstrates **data cleaning, aggregation, and visualization skills** using Power BI and is ideal for beginners in data analytics and visualization.
+
+---
+
+## 📊 Project Overview
+
+The Iris dataset contains measurements of iris flowers from three species:
+
+* **Setosa**
+* **Versicolor**
+* **Virginica**
+
+Each record includes:
+
+* Sepal Length
+* Sepal Width
+* Petal Length
+* Petal Width
+
+The goal of this project is to:
+
+* Understand differences between species
+* Identify patterns and trends
+* Present insights through an interactive dashboard
+
+---
+
+## 🎯 Problem Statement
+
+Raw datasets are often difficult to interpret without visualization. This project solves the problem of **understanding species-wise variation** in iris flower measurements by transforming raw data into **clear and interactive visual insights**.
+
+---
+
+## 🧠 Why This Dataset?
+
+* Well-structured and clean dataset
+* Widely used in data science and ML
+* Perfect for learning **EDA (Exploratory Data Analysis)**
+* Helps understand how visualizations reveal hidden patterns
+
+---
+
+## 📈 Dashboard Highlights
+
+The Power BI dashboard includes:
+
+### 1️⃣ Average Sepal & Petal Size by Species
+
+* Bar charts comparing average dimensions
+* Clear differentiation between species
+
+### 2️⃣ Trend of Sepal vs Petal Length
+
+* Line/area visualization
+* Shows how petal length varies with sepal length
+
+### 3️⃣ Species Distribution
+
+* Donut chart showing equal distribution of species
+
+### 4️⃣ Comparison of Sepal & Petal Dimensions
+
+* Combined bar and line chart
+* Easy comparison of measurements
+
+### 5️⃣ Sepal Length vs Petal Length (Scatter Plot)
+
+* Strong clustering by species
+* Highlights correlation between features
+
+---
+
+## 🖼️ Dashboard Screenshot
+
+> *Power BI Iris Dataset Analysis Dashboard*
+
+![Iris Dashboard](images/iris_dashboard.png)
+
+---
+
+## 📁 Project Structure
+
+```
+Iris-Dataset-Analysis/
+│
+├── dataset/
+│   └── iris_cleaned.csv
+│
+├── images/
+│   └── iris_dashboard.png
+│
+├── Iris_Dashboard.pbix
+│
+└── README.md
+```
+
+---
+
+## 🧾 Dataset Information
+
+* **Source**: UCI Machine Learning Repository
+* **Format**: CSV
+* **Rows**: 150
+* **Columns**: 5
+
+| Column Name  | Description       |
+| ------------ | ----------------- |
+| sepal_length | Sepal length (cm) |
+| sepal_width  | Sepal width (cm)  |
+| petal_length | Petal length (cm) |
+| petal_width  | Petal width (cm)  |
+| species      | Iris species      |
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+* **Power BI Desktop**
+* **CSV Dataset**
+* **Data Cleaning & Modeling**
+* **Data Visualization Techniques**
+
+---
+
+## 📌 Key Learnings
+
+* Importing and cleaning datasets in Power BI
+* Creating calculated measures and averages
+* Choosing the right visual for the right insight
+* Designing clean and informative dashboards
+
+---
+
+## 🚀 Future Improvements
+
+* Add filters/slicers for interactivity
+* Include statistical summaries
+* Apply custom themes and tooltips
+* Compare with other flower datasets
+
+---
+
+## 👩‍💻 Author
+
+**Srushti Kandakur**
+Electronics & Computer Engineering Student
+Aspiring Data Analyst & Developer
+
+⭐ *If you found this project helpful, feel free to star the repository!*
